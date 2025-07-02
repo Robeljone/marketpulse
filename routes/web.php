@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('Moderna/about');
+    return view('Moderna/index');
 });
 Route::get('/index', function () {
     return view('Moderna/index');
